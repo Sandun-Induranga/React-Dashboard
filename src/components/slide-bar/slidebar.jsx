@@ -51,10 +51,15 @@ function Slidebar() {
         </button>
       </div>
 
-      <footer className="mb-5">
-          <h1>
+      <footer className="mb-5 rounded-5">
+          <h1 className="mt-5">
             <i class="bi bi-safe-fill"></i>
           </h1>
+          <h2 className="text-white h4 mt-3">Keep you safe!</h2>
+
+          <h3 className="mt-4 mb-4">Update your secuirity password, keep your account safe!</h3>
+
+          <h2 className="text-white h4 mb-5">Update Privacy</h2>
       </footer>
     </div>
   );

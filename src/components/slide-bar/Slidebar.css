@@ -32,15 +32,21 @@ h1 > i {
   color: #00dea3;
 }
 
-section{
-    border: 1px solid #E4E7ED;
+section {
+  border: 1px solid #e4e7ed;
 }
 
-footer{
-    width: 100%;
-    background: #00dea3;
+footer {
+  width: 100%;
+  background: #00dea3;
 }
 
-footer>h1>i{
-    color: white;
+footer > h1 > i {
+  color: white;
+}
+
+h3 {
+  color: #231f20;
+  font-size: 12px !important;
+  font-weight: lighter !important;
 }
