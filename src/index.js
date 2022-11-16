@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Slidebar from './components/slide-bar/slidebar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
