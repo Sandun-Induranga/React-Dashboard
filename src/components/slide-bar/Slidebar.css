@@ -1,3 +1,10 @@
-*{
-    color: aqua;
+button{
+    background: none;
+    border: none;
+    color: #00140E;
+    font-size: 18px;
+}
+
+i{
+    color: #00140E;
 }
