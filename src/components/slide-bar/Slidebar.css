@@ -1,10 +1,29 @@
+div{
+    width: 255px;
+}
 button{
     background: none;
     border: none;
     color: #00140E;
     font-size: 18px;
+    padding: 12px;
+    width: 195px;
+    height: 48px;
 }
 
 i{
     color: #00140E;
+    margin-right: 12px;
+}
+
+#dashboard, #dashboard i{
+    color: #00DEA3;
+}
+
+h1{
+    color: #00140E;
+}
+
+h1>i{
+    color: #00DEA3;
 }
