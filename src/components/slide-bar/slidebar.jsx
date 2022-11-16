@@ -4,8 +4,9 @@ import "./Slidebar.css";
 function Slidebar() {
   return (
     <div className="h-100 bg-white px-2 d-flex flex-column align-items-center">
-      <div className="header-panel">
-      <h1><i class="bi bi-back"></i>ZARVIS</h1>
+      <div className="header-panel d-flex flex-column align-items-center">
+      <h1 className="mt-5 mb-2"><i class="bi bi-back"></i>ZARVIS</h1>
+      <section className="w-50 mt-2 mb-5"></section>
       <button className="w-100 mb-2 d-flex px-5" id="dashboard">
         <p>
           <i class="bi bi-grid-1x2-fill"></i>

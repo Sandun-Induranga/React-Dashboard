@@ -1,29 +1,35 @@
-div{
-    width: 255px;
+div {
+  width: 255px;
 }
-button{
-    background: none;
-    border: none;
-    color: #00140E;
-    font-size: 18px;
-    padding: 12px;
-    width: 195px;
-    height: 48px;
-}
-
-i{
-    color: #00140E;
-    margin-right: 12px;
+button {
+  background: none;
+  border: none;
+  color: #00140e;
+  font-size: 18px;
+  padding: 12px;
+  width: 195px;
+  height: 48px;
 }
 
-#dashboard, #dashboard i{
-    color: #00DEA3;
+i {
+  color: #00140e;
+  margin-right: 12px;
 }
 
-h1{
-    color: #00140E;
+#dashboard,
+#dashboard i {
+  color: #00dea3;
 }
 
-h1>i{
-    color: #00DEA3;
+h1 {
+  color: #00140e;
+  font-size: 24px;
+}
+
+h1 > i {
+  color: #00dea3;
+}
+
+section{
+    border: 1px solid #E4E7ED;
 }
