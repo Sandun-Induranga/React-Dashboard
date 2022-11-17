@@ -3,7 +3,7 @@ import "./Context.css";
 
 function Context(){
     return (
-        <div>
+        <div className="context">
 
         </div>
     );
