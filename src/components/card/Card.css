@@ -4,3 +4,12 @@
     height: 178px !important;
     background: white;
 }
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.card p{
+    width: max-content;
+}
