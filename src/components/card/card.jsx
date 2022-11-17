@@ -6,6 +6,7 @@ function Card(props){
         <div className="card rounded-4 border-0">
             {props.name}
             {props.price}
+            {props.rate}
         </div>
     );
 }
