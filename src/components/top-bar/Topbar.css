@@ -1,0 +1,10 @@
+.top-bar{
+    width: auto;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 255px;
+    right: 0;
+    margin: auto;
+    background: blueviolet;
+}

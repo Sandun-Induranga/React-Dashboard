@@ -3,7 +3,7 @@ import "./Slidebar.css";
 
 function Slidebar() {
   return (
-    <div className="h-100 bg-white px-2 d-flex flex-column align-items-center shadow-sm">
+    <div className="h-100 bg-white px-2 d-flex flex-column align-items-center shadow-sm slide-bar">
       <div className="header-panel d-flex flex-column align-items-center">
         <h1 className="mt-5 mb-2">
           <i class="bi bi-back"></i>

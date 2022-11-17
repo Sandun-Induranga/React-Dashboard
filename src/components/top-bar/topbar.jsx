@@ -1,8 +1,9 @@
 import React from "react";
+import "./Topbar.css";
 
 function Topbar() {
     return(
-        <div>
+        <div className="top-bar">
             TopBar
         </div>
     );
