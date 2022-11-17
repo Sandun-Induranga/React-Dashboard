@@ -15,9 +15,23 @@
 .top-bar > section>h4{
     font-size: 24px;
     color: #00261C;
+    margin-bottom: 0;
 }
 
 .top-bar > section>p{
     font-size: 14px;
     color: #707EAE;
+}
+
+.top-bar > section:nth-child(2) span>i{
+  color: #AEB6CF;
+  font-size: px;
+}
+
+.top-bar > section:first-child{
+  margin-left: 20px;
+}
+
+.top-bar > section:last-child{
+  margin-right: 20px;
 }

@@ -51,7 +51,7 @@ function Slidebar() {
         </button>
       </div>
 
-      <footer className="mb-5 rounded-5">
+      <footer className="mt-5 rounded-5">
           <h1 className="mt-5">
             <i class="bi bi-safe-fill"></i>
           </h1>

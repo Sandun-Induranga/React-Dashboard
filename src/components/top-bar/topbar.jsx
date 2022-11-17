@@ -9,7 +9,10 @@ function Topbar() {
                 <p>10.25 am 17 Nov 2022</p>
             </section>
             <section>
-                <input type="text" />
+                <div class="input-group flex-nowrap">
+                    <span className="input-group-text bg-white border-0" id="addon-wrapping"><i class="bi bi-search"></i></span>
+                    <input type="text" className="border-0 rounded-2" placeholder="Search"/>
+                </div>
             </section>
             <section>
                 Notification
