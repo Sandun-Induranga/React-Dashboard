@@ -35,3 +35,38 @@
 .top-bar > section:last-child{
   margin-right: 20px;
 }
+
+#user{
+  width: 48px;
+  height: 48px;
+  background: url(../../../assets/user.png);
+}
+
+#user-detail{
+  gap: 15px;
+}
+
+#user-detail>p{
+  font-size: 16px;
+  color: #00261C;
+  margin: 0;
+}
+
+#user-detail h4{
+  margin: 0;
+  font-size: 18px;
+}
+
+#notification{
+  width: 48px;
+  height: 48px;
+}
+
+#user-detail h4>i{
+  margin: 0;
+}
+
+.top-bar input{
+  width: 410px;
+  height: 48px;
+}

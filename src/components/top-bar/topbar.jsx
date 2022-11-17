@@ -14,8 +14,12 @@ function Topbar() {
                     <input type="text" className="border-0 rounded-2" placeholder="Search"/>
                 </div>
             </section>
-            <section>
-                Notification
+            <section id="user-detail" className="d-flex align-items-center">
+                <div id="notification" className="d-flex justify-content-center align-items-center rounded-3 bg-white">
+                <h4><i class="bi bi-bell"></i></h4>
+                </div>
+                <p>John Devid</p>
+                <div id="user"></div>
             </section>
         </div>
     );
