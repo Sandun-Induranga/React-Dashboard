@@ -4,9 +4,11 @@ import "./Card.css";
 function Card(props){
     return (
         <div className="card rounded-4 border-0">
-            {props.name}
-            {props.price}
-            {props.rate}
+            <section className="border-0">
+                <p>{props.name}</p>
+                <p>{props.price}</p>
+                <p>{props.rate}</p>
+            </section>
         </div>
     );
 }
