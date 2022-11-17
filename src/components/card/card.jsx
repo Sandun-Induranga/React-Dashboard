@@ -3,7 +3,7 @@ import "./Card.css";
 
 function Card(){
     return (
-        <div>
+        <div className="card rounded-4">
             card
         </div>
     );
