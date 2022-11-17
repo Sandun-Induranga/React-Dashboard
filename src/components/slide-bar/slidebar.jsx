@@ -15,7 +15,7 @@ function Slidebar() {
             <i class="bi bi-grid-1x2-fill"></i>
           </p>
           Dashboard
-          <p className>
+          <p>
             <i class="bi bi-dot"></i>
           </p>
         </button>
