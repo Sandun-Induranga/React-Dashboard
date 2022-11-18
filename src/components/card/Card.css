@@ -1,15 +1,26 @@
-.card{
-    display: inline-block;
-    width: 255px;
-    height: 178px !important;
-    background: white;
+.card {
+  display: inline-block;
+  width: 255px;
+  height: 178px !important;
+  background: white;
 }
 
-.icon{
-    width: 40px;
-    height: 40px;
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
 }
 
-.card p{
-    width: max-content;
+.card p {
+  width: max-content;
+}
+
+.graph{
+    width: 104px;
+    height: 56px;
+    background: url(../../../assets/Growth.png);
+}
+
+.cord-content{
+    width: 94px;
 }
