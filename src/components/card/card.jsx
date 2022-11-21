@@ -26,7 +26,7 @@ function getCoin(value) {
       return <i className="bi bi-currency-bitcoin m-0"></i>;
 
       case "LTC":
-      return <i className="fa-solid fa-litecoin-sign"></i>;
+      return <i className="fa-solid fa-house"></i>;
   
     default:
       // return <i className="bi bi-currency-bitcoin m-0"></i>
