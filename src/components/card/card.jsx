@@ -7,7 +7,7 @@ function Card(props) {
       <section className="border-0 d-flex justify content-start flex-column card-content">
         <div className="d-flex bg-success justify-content-center align-items-center icon mb-2">
           <h2>
-            <i class="bi bi-currency-bitcoin m-0"></i>
+            {getCoin(props.icon)}
           </h2>
         </div>
         <p className="m-0">{props.name}</p>
@@ -17,6 +17,17 @@ function Card(props) {
       <section className="border-0 graph"></section>
     </div>
   );
+}
+
+function getCoin(value) {
+  switch (value) {
+    case "bitcoin":
+      return <i className="bi bi-currency-bitcoin m-0"></i>
+  
+    default:
+      // return <i className="bi bi-currency-bitcoin m-0"></i>
+      break;
+  }
 }
 
 export default Card;
