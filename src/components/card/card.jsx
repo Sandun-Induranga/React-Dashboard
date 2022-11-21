@@ -3,7 +3,7 @@ import "./Card.css";
 
 function Card(props) {
   return (
-    <div className="card rounded-4 border-0 d-flex justify-content-center">
+    <div className="card rounded-4 border-0 d-flex flex-row justify-content-around align-items-center">
       <section className="border-0 d-flex justify content-start flex-column card-content">
         <div className="d-flex bg-success justify-content-center align-items-center icon">
           <h2>
@@ -15,7 +15,7 @@ function Card(props) {
         <p>{props.rate}</p>
       </section>
       <section className="border-0 graph">
-        
+        graph
       </section>
     </div>
   );

@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Slidebar />
       <Topbar />
-      <Context/>
+      <Context />
     </div>
   );
 }

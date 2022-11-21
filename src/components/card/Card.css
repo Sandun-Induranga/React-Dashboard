@@ -1,5 +1,4 @@
 .card {
-  display: inline-block;
   width: 255px;
   height: 178px !important;
   background: white;
@@ -16,7 +15,7 @@
 }
 
 .graph{
-    width: 104px;
+    width: 50px;
     height: 56px;
     background: url(../../../assets/Growth.png);
 }
