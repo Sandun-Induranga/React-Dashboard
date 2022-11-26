@@ -3,7 +3,7 @@ import "./Card.css";
 import btc from "../../Coins-1.png";
 import ltc from "../../Coins-2.png";
 import etm from "../../Coins-3.png";
-// import bnb from "../../Coins-4.png";
+import bnb from "../../Coins-4.png";
 
 function Card(props) {
   return (
@@ -31,13 +31,12 @@ function getCoin(value) {
     case "LTC":
       return <img src={ltc} alt="BTC" />;
 
-    case "LTC":
-      return <img src={ltc} alt="BTC" />;
+    case "ETM":
+      return <img src={etm} alt="BTC" />;
 
     default:
       // return <i className="bi bi-currency-bitcoin m-0"></i>
-      return <img src={btc} alt="BTC" />;
-      break;
+      return <img src={bnb} alt="BTC" />;
   }
 }
 
