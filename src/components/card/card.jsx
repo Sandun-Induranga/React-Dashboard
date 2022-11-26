@@ -1,9 +1,9 @@
 import React from "react";
 import "./Card.css";
-import btc from "../../Coins-1.png";
-import ltc from "../../Coins-2.png";
-import etm from "../../Coins-3.png";
-import bnb from "../../Coins-4.png";
+import btc from "../../assets/Coins-1.png";
+import ltc from "../../assets/Coins-2.png";
+import etm from "../../assets/Coins-3.png";
+import bnb from "../../assets/Coins-4.png";
 
 function Card(props) {
   return (
