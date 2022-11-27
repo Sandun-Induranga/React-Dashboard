@@ -6,7 +6,9 @@ function Graph(props) {
     return (
         <div className="chart bg-white d-flex flex-column justify-content-between">
             <section>
-                Header
+                <aside>
+                    <h4>Market Overview</h4>
+                </aside>
             </section>
             <img src={graph} alt=""/>
         </div>
