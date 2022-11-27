@@ -5,6 +5,7 @@ import graph from "../../assets/Graph.png";
 function Graph(props) {
     return (
         <div className="chart bg-white d-flex flex-column justify-content-between">
+
             <section className="d-flex justify-content-between m-2">
                 <aside className="d-flex flex-column">
                     <h4>Market Overview</h4>
@@ -18,7 +19,20 @@ function Graph(props) {
                     <div className="d-flex justify-content-center align-items-center rounded-4">YTD</div>
                 </aside>
             </section>
+
             <img src={graph} alt=""/>
+
+            <article>
+
+                <div>
+                    Buy
+                </div>
+                <div>
+                    Sell
+                </div>
+
+            </article>
+
         </div>
     );
 }
