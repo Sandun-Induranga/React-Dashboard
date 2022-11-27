@@ -9,7 +9,7 @@ function Graph(props) {
                 <aside>
                     <h4>Market Overview</h4>
                 </aside>
-                <aside>
+                <aside className="d-flex w-50 justify-content-around">
                     <div>ALL</div>
                     <div>1M</div>
                     <div>6M</div>
