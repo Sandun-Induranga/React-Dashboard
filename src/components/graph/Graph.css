@@ -18,3 +18,9 @@
 .chart aside > p{
     color: #00DEA3;
 }
+
+.options > div:first-child{
+    background: #00DEA3;
+    border: #00DEA3;
+    color: white;
+}
