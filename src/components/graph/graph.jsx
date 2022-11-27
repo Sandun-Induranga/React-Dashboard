@@ -3,7 +3,7 @@ import "./Graph.css";
 
 function Graph(props) {
     return (
-        <div>
+        <div className="chart bg-white">
             Graph
         </div>
     );
