@@ -1,6 +1,7 @@
 import React from "react";
 import "./Context.css";
 import Card from "../card/card";
+import Graph from "../graph/graph";
 
 function Context() {
   return (
@@ -12,7 +13,7 @@ function Context() {
         <Card name="BNB" price="9784.79" rate="7.5%" icon="BNB" />
       </section>
       <section>
-        
+          <Graph/>
       </section>
     </div>
   );
