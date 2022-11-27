@@ -33,7 +33,6 @@ function getCoin(value) {
       return <img src={etm} alt="BTC" />;
 
     default:
-      // return <i className="bi bi-currency-bitcoin m-0"></i>
       return <img src={bnb} alt="BTC" />;
   }
 }
