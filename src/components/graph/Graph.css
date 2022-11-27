@@ -3,3 +3,9 @@
     height: 366px;
     border-radius: 16px;
 }
+
+.options > div{
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ccc;
+}
