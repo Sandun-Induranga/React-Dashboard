@@ -13,7 +13,7 @@ function Context() {
         <Card name="ETM" price="9784.79" rate="7.5%" icon="ETM" />
         <Card name="BNB" price="9784.79" rate="7.5%" icon="BNB" />
       </section>
-      <section>
+      <section className="d-flex justify-content-around">
           <Graph/>
           <Balances/>
       </section>
