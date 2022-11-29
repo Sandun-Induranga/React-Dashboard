@@ -2,6 +2,7 @@
     width: 300px;
     height: 254px;
     border-radius: 16px;
+    text-align: left;
 }
 .team h1{
     color: #00261C;
@@ -15,8 +16,13 @@
     height: 76px;
     background: rgba(120, 62, 253, 0.1);
     border-radius: 12px;
+    color: #00261C;
 }
 
 .team > aside> section:last-child{
     background: rgba(0, 222, 163, 0.1);
+}
+
+.team h5{
+    font-weight: normal;
 }
