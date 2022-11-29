@@ -16,3 +16,13 @@
     color: #5A55D2;
     font-size: 20px;
 }
+
+.balances p::first-letter{
+    color: #5A55D2;
+    font-size: 1em;
+}
+
+.balances h2{
+    color: #5A55D2;
+    font-size: 34px;
+}

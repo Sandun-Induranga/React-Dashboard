@@ -9,7 +9,7 @@ function Balances(){
                 <i class="bi bi-plus-square-fill"></i>
             </section>
             <section className="d-flex align-items-start flex-column">
-                <p>$ Dollar</p>
+                <p className="h5">$ Dollar</p>
                 <h2>9784.79</h2>
             </section>
         </div>
