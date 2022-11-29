@@ -24,11 +24,11 @@ function Graph(props) {
 
             <article>
 
-                <div>
+                <div className="d-flex align-items-center">
                     <i className="bi bi-dot text-lg"></i>
                     Buy
                 </div>
-                <div>
+                <div className="d-flex align-items-center">
                 <i className="bi bi-dot text-lg"></i>
                     Sell
                 </div>

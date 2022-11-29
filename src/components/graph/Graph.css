@@ -33,3 +33,7 @@ article{
     display: flex;
     gap: 10px;
 }
+
+article i{
+    font-size: 50px;
+}
