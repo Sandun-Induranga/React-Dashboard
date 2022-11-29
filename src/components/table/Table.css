@@ -1,3 +1,14 @@
 .table-class{
     height: 254px;
 }
+
+.table-class h1{
+    color: #00261C;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+}
+
+tr{
+    text-align: left;
+}

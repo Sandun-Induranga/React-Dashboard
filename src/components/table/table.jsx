@@ -1,36 +1,38 @@
 import React from "react";
 import "./Table.css";
+import img1 from "../../assets/Coins-1.png";
+import img2 from "../../assets/Coins-2.png";
+import img3 from "../../assets/Coins-3.png";
 
 function Table() {
   return (
     <div className="table-class m-3">
-        <h1>Recent Activities</h1>
+      <h1 className="mt-2">Recent Activities</h1>
       <table className="table">
-        <thead>
-          <tr className="border-white">
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
         <tbody>
           <tr className="border-white">
-            <th scope="row">1</th>
-            <td>Mark</td>
+            <th scope="row">
+              <img src={img1} alt="" />
+            </th>
+            <td>Bitcoin</td>
             <td>Otto</td>
             <td>@mdo</td>
           </tr>
           <tr className="border-white">
-            <th scope="row">2</th>
-            <td>Jacob</td>
+            <th scope="row">
+              <img src={img2} alt="" />
+            </th>
+            <td>Ethereum</td>
             <td>Thornton</td>
             <td>@fat</td>
           </tr>
           <tr className="border-white">
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <th scope="row">
+              <img src={img3} alt="" />
+            </th>
+            <td>LTC</td>
+            <td>Thornton</td>
+            <td>@fat</td>
           </tr>
         </tbody>
       </table>
