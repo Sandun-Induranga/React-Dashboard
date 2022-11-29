@@ -29,6 +29,7 @@ function Graph(props) {
                     Buy
                 </div>
                 <div>
+                <i className="bi bi-dot text-lg"></i>
                     Sell
                 </div>
 
