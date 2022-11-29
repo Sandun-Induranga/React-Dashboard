@@ -1,0 +1,11 @@
+.team{
+    width: 300px;
+    height: 254px;
+    border-radius: 16px;
+}
+.team h1{
+    color: #00261C;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+}

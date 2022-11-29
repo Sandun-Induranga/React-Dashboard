@@ -4,6 +4,7 @@ import Card from "../card/card";
 import Graph from "../graph/graph";
 import Balances from "../balances/balances";
 import Table from "../table/table";
+import Team from "../team/team";
 
 function Context() {
   return (
@@ -23,6 +24,7 @@ function Context() {
 
       <section className="mt-3 d-flex justify-content-around">
         <Table />
+        <Team/>
       </section>
 
     </div>
