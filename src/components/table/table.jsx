@@ -15,7 +15,7 @@ function Table() {
               <img src={img1} alt="" />
             </th>
             <td>Bitcoin</td>
-            <td>Otto</td>
+            <td>10:45:16AM</td>
             <td>@mdo</td>
           </tr>
           <tr className="border-white">
@@ -23,7 +23,7 @@ function Table() {
               <img src={img2} alt="" />
             </th>
             <td>Ethereum</td>
-            <td>Thornton</td>
+            <td>09:16:28AM</td>
             <td>@fat</td>
           </tr>
           <tr className="border-white">
@@ -31,7 +31,7 @@ function Table() {
               <img src={img3} alt="" />
             </th>
             <td>LTC</td>
-            <td>Thornton</td>
+            <td>09:01:12AM</td>
             <td>@fat</td>
           </tr>
         </tbody>
