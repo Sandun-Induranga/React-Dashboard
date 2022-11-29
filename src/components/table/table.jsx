@@ -6,7 +6,7 @@ import img3 from "../../assets/Coins-3.png";
 
 function Table() {
   return (
-    <div className="table-class m-3 bg-white p-2">
+    <div className="table-class m-2 bg-white p-2">
       <h1 className="mt-2">Recent Activities</h1>
       <table className="table">
         <tbody>
