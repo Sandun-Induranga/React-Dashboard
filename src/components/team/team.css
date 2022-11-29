@@ -9,3 +9,11 @@
     font-weight: normal;
     text-align: left;
 }
+
+.team > aside> section {
+    width: 205px;
+    height: 76px;
+    background: #783EFD;
+    opacity: 0.1;
+    border-radius: 12px;
+}
