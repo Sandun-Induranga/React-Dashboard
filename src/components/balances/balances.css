@@ -1,6 +1,5 @@
 .balances {
     width: 400px;
-    background: red;
     height: 366px;
     background: white;
     border-radius: 16px;
@@ -25,4 +24,5 @@
 .balances h2{
     color: #5A55D2;
     font-size: 34px;
+    font-weight: normal;
 }
