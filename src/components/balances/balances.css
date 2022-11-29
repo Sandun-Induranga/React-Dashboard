@@ -1,5 +1,7 @@
-.balances{
+.balances {
     width: 400px;
     background: red;
-    height: 500px;
+    height: 366px;
+    background: white;
+    border-radius: 16px;
 }
