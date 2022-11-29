@@ -3,7 +3,7 @@ import "./Table.css";
 
 function Table() {
   return (
-    <div className="table-class">
+    <div className="table-class m-3">
       <table className="table">
         <thead>
           <tr>
