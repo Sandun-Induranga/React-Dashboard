@@ -3,7 +3,7 @@ import "./balances.css";
 
 function Balances(){
     return(
-        <div>
+        <div className="balances">
 
         </div>
     )

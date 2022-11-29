@@ -2,6 +2,7 @@ import React from "react";
 import "./Context.css";
 import Card from "../card/card";
 import Graph from "../graph/graph";
+import Balances from "../balances/balances";
 
 function Context() {
   return (
@@ -14,6 +15,7 @@ function Context() {
       </section>
       <section>
           <Graph/>
+          <Balances/>
       </section>
     </div>
   );
