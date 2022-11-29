@@ -17,7 +17,7 @@ function Team() {
             </section>
         </section>
 
-        <section className="m-2 d-flex">
+        <section className="m-2 d-flex last">
             <img src={user} alt="" />
             <section>
                 <h5 className="mt-2">Total Users</h5>

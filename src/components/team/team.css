@@ -16,3 +16,7 @@
     background: rgba(120, 62, 253, 0.1);
     border-radius: 12px;
 }
+
+.team > aside> section:last-child{
+    background: rgba(0, 222, 163, 0.1);
+}
