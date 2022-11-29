@@ -6,7 +6,7 @@ import img3 from "../../assets/Coins-3.png";
 
 function Table() {
   return (
-    <div className="table-class m-3">
+    <div className="table-class m-3 bg-white p-2">
       <h1 className="mt-2">Recent Activities</h1>
       <table className="table">
         <tbody>
@@ -17,6 +17,7 @@ function Table() {
             <td>Bitcoin</td>
             <td>10:45:16AM</td>
             <td>+1545,00</td>
+            <td id="op-1">Completed</td>
           </tr>
           <tr className="border-white">
             <th scope="row">
@@ -25,6 +26,7 @@ function Table() {
             <td>Ethereum</td>
             <td>09:16:28AM</td>
             <td>+5649,00</td>
+            <td id="op-2">Pending</td>
           </tr>
           <tr className="border-white">
             <th scope="row">
@@ -33,6 +35,7 @@ function Table() {
             <td>LTC</td>
             <td>09:01:12AM</td>
             <td>+4547,00</td>
+            <td id="op-1">Completed</td>
           </tr>
         </tbody>
       </table>

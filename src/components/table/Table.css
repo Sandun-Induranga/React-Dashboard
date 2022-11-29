@@ -1,5 +1,7 @@
 .table-class{
+    width: 1030px;
     height: 254px;
+    border-radius: 16px;
 }
 
 .table-class h1{
@@ -12,4 +14,12 @@
 tr{
     text-align: left;
     color: #707EAE;
+}
+
+#op-1{
+    color: #00DEA3;
+}
+
+#op-2{
+    color: #868CFF;
 }

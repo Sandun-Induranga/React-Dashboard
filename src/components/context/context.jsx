@@ -21,7 +21,7 @@ function Context() {
         <Balances />
       </section>
 
-      <section className="mt-3 bg-white">
+      <section className="mt-3 d-flex justify-content-around">
         <Table />
       </section>
 
