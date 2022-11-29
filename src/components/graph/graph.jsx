@@ -20,7 +20,7 @@ function Graph(props) {
                 </aside>
             </section>
 
-            <img src={graph} alt=""/>
+            <img className="h-75" src={graph} alt=""/>
 
             <article>
 
