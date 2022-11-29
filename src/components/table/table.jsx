@@ -4,9 +4,10 @@ import "./Table.css";
 function Table() {
   return (
     <div className="table-class m-3">
+        <h1>Recent Activities</h1>
       <table className="table">
         <thead>
-          <tr>
+          <tr className="border-white">
             <th scope="col">#</th>
             <th scope="col">First</th>
             <th scope="col">Last</th>
@@ -14,19 +15,19 @@ function Table() {
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr className="border-white">
             <th scope="row">1</th>
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
           </tr>
-          <tr>
+          <tr className="border-white">
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
           </tr>
-          <tr>
+          <tr className="border-white">
             <th scope="row">3</th>
             <td colspan="2">Larry the Bird</td>
             <td>@twitter</td>
