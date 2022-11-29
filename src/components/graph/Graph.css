@@ -37,3 +37,11 @@ article{
 article i{
     font-size: 50px;
 }
+
+article>div:last-child>i{
+    color: #00DEA3;
+}
+
+article>div:first-child>i{
+    color: #5A55D2;
+}
