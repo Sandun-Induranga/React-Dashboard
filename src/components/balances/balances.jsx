@@ -1,5 +1,6 @@
 import React from "react";
 import "./balances.css";
+import  visa from "../../assets/Illustration.png";
 
 function Balances(){
     return(
@@ -11,6 +12,9 @@ function Balances(){
             <section className="d-flex align-items-start flex-column">
                 <p className="h5">$ Dollar</p>
                 <h2>9784.79</h2>
+            </section>
+            <section>
+                <img src={visa} alt="" />
             </section>
         </div>
     )
