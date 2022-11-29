@@ -5,3 +5,9 @@
     background: white;
     border-radius: 16px;
 }
+
+.balances h4{
+    color: #00261C;
+    font-weight: normal;
+    font-size: 24px;
+}
