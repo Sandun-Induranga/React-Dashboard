@@ -16,7 +16,7 @@ function Table() {
             </th>
             <td>Bitcoin</td>
             <td>10:45:16AM</td>
-            <td>@mdo</td>
+            <td>+1545,00</td>
           </tr>
           <tr className="border-white">
             <th scope="row">
@@ -24,7 +24,7 @@ function Table() {
             </th>
             <td>Ethereum</td>
             <td>09:16:28AM</td>
-            <td>@fat</td>
+            <td>+5649,00</td>
           </tr>
           <tr className="border-white">
             <th scope="row">
@@ -32,7 +32,7 @@ function Table() {
             </th>
             <td>LTC</td>
             <td>09:01:12AM</td>
-            <td>@fat</td>
+            <td>+4547,00</td>
           </tr>
         </tbody>
       </table>
