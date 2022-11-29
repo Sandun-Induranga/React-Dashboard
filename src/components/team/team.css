@@ -13,7 +13,6 @@
 .team > aside> section {
     width: 205px;
     height: 76px;
-    background: #783EFD;
-    opacity: 0.1;
+    background: rgba(120, 62, 253, 0.1);
     border-radius: 12px;
 }
