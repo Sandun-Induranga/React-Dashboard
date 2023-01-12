@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create React Application
 
 ![Screenshot from 2022-11-29 17-03-27](https://user-images.githubusercontent.com/88975401/205097533-fd935270-7284-4947-8f45-a9be70520eb6.png)
 
